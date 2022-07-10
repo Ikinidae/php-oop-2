@@ -4,6 +4,7 @@ class Food extends Product {
     private $size; // sacco da quanti kg
     private $type; // umido o secco
 
+    // setters
     public function setSize($size) {
         if (!is_string($size)) {
             $this->size = $size;

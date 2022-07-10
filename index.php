@@ -4,6 +4,7 @@ include __DIR__ . '/classes/food.php';
 include __DIR__ . '/classes/toy.php';
 include __DIR__ . '/classes/doghouse.php';
 include __DIR__ . '/classes/user.php';
+// include __DIR__ . '/classes/registered_user.php';
 
 $food1 = new Food();
 $food1->setCategory("cane");
@@ -33,6 +34,7 @@ $user1->setName("Federica");
 $user1->setSurname("Elia");
 $user1->setPhone(3393035934);
 $user1->setAddress("Via Quercia 87/A");
+$user1->setRegistered(true);
 var_dump($user1);
 
 ?>

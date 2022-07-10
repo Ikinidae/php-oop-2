@@ -4,6 +4,7 @@ class DogHouse extends Product {
     private $name;
     private $dimensions;
 
+    // setters
     public function setName($name) {
         if (is_string($name)) {
             $this->name = $name;
